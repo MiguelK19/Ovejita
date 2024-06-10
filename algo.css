@@ -95,7 +95,7 @@ button:hover{
         grid-template-columns: auto;
     }
     .moved-down {
-        top: calc(50% + 500px);
+        top: calc(50% + 800px);
     }
    
 }
