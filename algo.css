@@ -81,35 +81,44 @@ button:hover{
     .contenido .alinear{
         display: grid;
         grid-template-columns: auto;
-        gap: 30px;
+        gap: 10px;
         padding-left: 9.5em;
-        width: 100px;
-        height: 100px;
+    }
+    .contenido{
+        margin-bottom: 220px;
+    }
+    .contenido .carta{
+        margin-right: 230px;
     }
     .botones{
         display: grid;
         grid-template-columns: auto;
     }
     .moved-down {
-        top: calc(50% + 650px);
+        top: calc(50% + 155px);
     }
+   
 }
 @media (min-width: 600px) and (max-width: 899px){
 
-    h1{
-        font-size: 80px;
-        margin-right: 80px;
-    }
+ 
     .contenido .alinear{
         display: grid;
         grid-template-columns: auto;
-        gap: 30px
+        gap: 10px;
+        padding-left: 9.5em;
     }
-    .moved-down {
-        top: calc(50% + 650px);
+    .contenido{
+        margin-bottom: 220px;
+    }
+    .contenido .carta{
+        margin-right: 230px;
     }
     .botones{
         display: grid;
         grid-template-columns: auto;
+    }
+    .moved-down {
+        top: calc(50% + 155px);
     }
 }
