@@ -88,10 +88,6 @@ button:hover{
         margin-left: 15px;
         margin-bottom: 30px;
     }
-    .botones{
-        display: flex;
-        align-items: end;
-    }
    
 }
 @media (min-width: 600px) and (max-width: 899px){
@@ -110,10 +106,6 @@ button:hover{
         grid-template-columns: auto;
         margin-left: 15px;
         margin-bottom: 30px;
-    }
-    .botones{
-        display: flex;
-        align-items: end;
     }
    
 }
