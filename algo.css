@@ -73,9 +73,6 @@ button:hover{
 
 @media (max-width: 599px){
 
-    .contenido{
-        height: 50vh;
-    }
     .contenido .alinear{
         display: grid;
         grid-template-columns: auto;
@@ -88,6 +85,9 @@ button:hover{
     .botones{
         display: grid;
         grid-template-columns: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
         margin-left: 15px;
         margin-bottom: 30px;
     }
@@ -95,9 +95,6 @@ button:hover{
 }
 @media (min-width: 600px) and (max-width: 899px){
 
-    .contenido{
-        height: 50vh;
-    }
     .contenido .alinear{
         display: grid;
         grid-template-columns: auto;
@@ -112,6 +109,9 @@ button:hover{
         grid-template-columns: auto;
         margin-left: 15px;
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
     }
    
 }
