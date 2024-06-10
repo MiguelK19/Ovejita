@@ -71,7 +71,29 @@ button:hover{
     color: black;
 }
 
-@media (max-width: 899px){
+@media (max-width: 599px){
+
+    .contenido{
+        height: 170vh;
+    }
+    .contenido .alinear{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        padding-left: 9.5em;
+    }
+    .contenido .carta{
+        margin-right: 230px;
+    }
+    .botones{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+   
+}
+@media (min-width: 600px) and (max-width: 899px){
 
     .contenido{
         height: 170vh;
