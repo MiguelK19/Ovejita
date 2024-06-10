@@ -86,8 +86,8 @@ button:hover{
         display: grid;
         grid-template-columns: auto;
         display: flex;
-        justify-content: center;
-        align-items: end;
+        justify-content: end;
+        align-items: center;
         margin-left: 15px;
         margin-bottom: 30px;
     }
@@ -110,8 +110,8 @@ button:hover{
         margin-left: 15px;
         margin-bottom: 30px;
         display: flex;
-        justify-content: center;
-        align-items: end;
+        justify-content: end;
+        align-items: center;
     }
    
 }
