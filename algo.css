@@ -73,6 +73,10 @@ button:hover{
 
 @media (max-width: 599px){
 
+    .contenido{
+        height: 170vh;
+    }
+
     .contenido .alinear{
         display: grid;
         grid-template-columns: auto;
@@ -91,6 +95,10 @@ button:hover{
    
 }
 @media (min-width: 600px) and (max-width: 899px){
+
+    .contenido{
+        height: 170vh;
+    }
 
     .contenido .alinear{
         display: grid;
